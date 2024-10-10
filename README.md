@@ -48,3 +48,11 @@ Once the payment is completed, the success or failure response will be displayed
 <p align="center">Responsive payment form with input fields and a Pay Now button.</p> <p align="center"> <img src="https://github.com/ashish8513/react-razorpay-main/blob/main/redirecting.png" alt="Payment Confirmation" width="800"> </p> 
 
 <p align="center">Payment confirmation screen.</p>
+
+<p align="center"> <img src="https://github.com/ashish8513/react-razorpay-main/blob/main/confirmation.png" alt="Payment Confirmation" width="800"> </p> <p align="center"> <strong>Payment Confirmation Screen</strong> </p>
+The Payment Confirmation Screen is displayed once the user successfully completes a payment through the Razorpay payment gateway. This screen includes:
+
+Transaction ID: A unique identifier generated for each payment, which helps track the payment details.
+Amount Paid: Displays the amount entered by the user and successfully paid.
+Payment Status: Indicates whether the payment was successful or failed, providing feedback to the user.
+ "Thank you for your payment" 
