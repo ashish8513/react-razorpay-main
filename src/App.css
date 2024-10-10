@@ -1,0 +1,115 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #287ba6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 24px;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.payment-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-height: 250px; /* Optional: limits image height */
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+label {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #001214;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:enabled {
+  background-color: #287ba6;
+}
+
+@media (max-width: 768px) {
+  .payment-box {
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  button {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .payment-box {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+
+  input[type="number"] {
+    padding: 10px;
+  }
+}
