@@ -43,8 +43,8 @@ Once the payment is completed, the success or failure response will be displayed
 
 
 🖼️ Screenshots
-<p align="center"> <img src="https://github.com/ashish8513/react-razorpay-main/blob/main/Payment%20Form.png" alt="Payment Form" width="400"> </p> 
+<p align="center"> <img src="https://github.com/ashish8513/react-razorpay-main/blob/main/Payment%20Form.png" alt="Payment Form" width="800"> </p> 
 
-<p align="center">Responsive payment form with input fields and a Pay Now button.</p> <p align="center"> <img src="https://github.com/ashish8513/react-razorpay-main/blob/main/redirecting.png" alt="Payment Confirmation" width="400"> </p> 
+<p align="center">Responsive payment form with input fields and a Pay Now button.</p> <p align="center"> <img src="https://github.com/ashish8513/react-razorpay-main/blob/main/redirecting.png" alt="Payment Confirmation" width="800"> </p> 
 
 <p align="center">Payment confirmation screen.</p>
