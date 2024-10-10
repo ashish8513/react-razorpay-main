@@ -7,10 +7,6 @@ function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [amount, setAmount] = useState(''); 
 
-  // const checkScriptLoaded = useCallback(() => {
-  //   if (!isClient || !('Razorpay' in window)) return false;
-  //   return true;
-  // }, [isClient]);
 
   const loadScript = useCallback(
     (scriptUrl) => {
