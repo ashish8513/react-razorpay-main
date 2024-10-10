@@ -19,6 +19,7 @@ Razorpay API: Payment gateway integration
 CSS: Styling for the UI
 JavaScript (ES6): Handling functionality and API communication
 
+<p align="center"> <img src="https://github.com/ashish8513/react-razorpay-main/blob/main/Screenshot%202024-10-10%20222651.png" alt="Payment Form" width="800"> </p>
 
 🔑 Razorpay API Key Setup
 To integrate Razorpay, follow these steps:
