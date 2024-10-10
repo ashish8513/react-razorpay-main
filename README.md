@@ -1,7 +1,4 @@
-Razorpay Payment Gateway Integration
-🚀 Project Overview
-This project demonstrates the integration of the Razorpay Payment Gateway into a web application using React.js. It enables users to make payments securely through the Razorpay platform with a simple, responsive UI that accepts an amount and processes payments seamlessly.
-
+<h1 align="center">Razorpay Payment Gateway Integration</h1> <p align="center"> 🚀 This project demonstrates the integration of the Razorpay Payment Gateway into a web application using React.js. It enables users to make payments securely through the Razorpay platform with a simple, responsive UI that accepts an amount and processes payments seamlessly. </p>
 📋 Features
 Razorpay Payment Gateway integration
 Secure and seamless payment processing
@@ -9,43 +6,25 @@ User-friendly and responsive design
 Live and test environment support
 Real-time status of payment loading and completion
 Input validation for payment amounts
-
-
 🛠️ Technologies Used
 React.js: Frontend framework
 Razorpay API: Payment gateway integration
-CSS:  styling for the UI
+CSS: Styling for the UI
 JavaScript (ES6): Handling functionality and API communication
-
- Razorpay API Key Setup
-Get your Razorpay API Key by following these steps:
+🔑 Razorpay API Key Setup
+To integrate Razorpay, follow these steps:
 
 Log in to your Razorpay Dashboard.
 Navigate to Settings > API Keys.
 Generate a new key or copy an existing one.
-Replace the placeholder key in the code with your actual Razorpay API key in the appropriate environment variables or directly in your React component if required.
-
+Replace the placeholder key in your code with your actual Razorpay API key.
+js
+Copy code
+const RAZORPAY_KEY = "your_razorpay_key"; // Replace with your Razorpay API Key
 📚 How to Use
 Enter the amount you wish to pay in the "Enter Amount" input field.
 Click on "Pay Now".
 The Razorpay payment popup will open, allowing you to complete the payment.
 Once the payment is completed, the success or failure response will be displayed accordingly.
-
 🖼️ Screenshots
-Responsive payment form with input fields and a Pay Now button.
-
-Payment confirmation screen.
-
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-
-Fork the repository
-Create a new branch (git checkout -b feature/your-feature)
-Make your changes
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/your-feature)
-Open a pull request
-
-💬 Get in Touch
-Feel free to reach out to me on Email or Linkdin or drop me a message if you have any questions or suggestions.
+<p align="center"> <img src="link-to-your-screenshot.png" alt="Payment Form" width="400"> </p> <p align="center">Responsive payment form with input fields and a Pay Now button.</p> <p align="center"> <img src="link-to-your-screenshot2.png" alt="Payment Confirmation" width="400"> </p> <p align="center">Payment confirmation screen.</p>
