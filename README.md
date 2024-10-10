@@ -55,4 +55,16 @@ The Payment Confirmation Screen is displayed once the user successfully complete
 Transaction ID: A unique identifier generated for each payment, which helps track the payment details.
 Amount Paid: Displays the amount entered by the user and successfully paid.
 Payment Status: Indicates whether the payment was successful or failed, providing feedback to the user.
- "Thank you for your payment" 
+ <h1>"Thank you for your payment" </h1> 
+
+
+🔑 Razorpay API Key Setup
+To integrate Razorpay, follow these steps:
+
+Log in to your Razorpay Dashboard.
+
+Navigate to Settings > API Keys.
+
+Generate a new key or copy an existing one.
+
+Replace the placeholder key in your code with your actual Razorpay API key.
