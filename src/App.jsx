@@ -1,8 +1,5 @@
 import React, { useEffect, useState, useMemo, useCallback } from 'react';
 import './App.css';
-import product from '../public/laptop-removebg-preview.png'
-import toast from 'react-hot-toast';
-
 function App() {
   const RAZORPAY_SCRIPT = 'https://checkout.razorpay.com/v1/checkout.js';
   const isClient = useMemo(() => typeof window !== 'undefined', []);
@@ -10,10 +7,10 @@ function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [amount, setAmount] = useState(''); 
 
-  const checkScriptLoaded = useCallback(() => {
-    if (!isClient || !('Razorpay' in window)) return false;
-    return true;
-  }, [isClient]);
+  // const checkScriptLoaded = useCallback(() => {
+  //   if (!isClient || !('Razorpay' in window)) return false;
+  //   return true;
+  // }, [isClient]);
 
   const loadScript = useCallback(
     (scriptUrl) => {
@@ -56,7 +53,7 @@ function App() {
     }
 
     const options = {
-      key: 'Enter Yout Own Secret Id From the Razorpay Account', 
+      // key: 'Enter Yout Own Secret Id From the Razorpay Account', 
       amount: amount * 100,
       currency: 'INR',
       name: 'Ashish Pvt. Ltd.',
@@ -106,11 +103,9 @@ function App() {
       </button>
     </div>
   </div>
-  
+  <div>Made by - ❤️ Ashish Prabhakar 😊 </div>
   );
 }
 
 export default App;
-
-
-// rzp_test_AFZoLbbTbHlOag
+//Support me Guys 
